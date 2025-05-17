@@ -8,9 +8,9 @@ module.exports = {
         primary: "#030014",
         secondary: "#151312",
         light: {
-          100: "#D6CFF",
-          200: "#a8B5DB",
-          300: "#9CA4AB",
+          100: "#FFFFFF", // Pure white for maximum contrast
+          200: "#E0E0E0", // Light gray
+          300: "#B0B0B0", // Medium gray
         },
         dark: {
           100: "#221f3d",
