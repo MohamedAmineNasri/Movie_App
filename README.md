@@ -76,40 +76,46 @@ yarn expo start</code></pre>
   <section>
   <h2>📱 Screens</h2>
 
-<h3>Home Screen</h3>
-<ul>
-  <li>Displays trending movies in a grid layout</li>
-  <li>Features a search bar to navigate to search screen</li>
-</ul>
+  <h3>Home Screen</h3>
+  <ul>
+    <li>Displays trending movies in a grid layout</li>
+    <li>Features a search bar to navigate to search screen</li>
+  </ul>
+  <img src="mobile/assets/images/homeScreen.png" alt="Home Screen" width="300"/>
 
-<h3>Search Screen</h3>
-<ul>
-  <li>Full-text search functionality</li>
-  <li>Debounced search requests</li>
-  <li>Results displayed in 3-column grid</li>
-</ul>
+  <h3>Search Screen</h3>
+  <ul>
+    <li>Full-text search functionality</li>
+    <li>Debounced search requests</li>
+    <li>Results displayed in 3-column grid</li>
+  </ul>
+  <p><strong>Before typing:</strong></p>
+  <img src="mobile/assets/images/SearchScreen1.png" alt="Search Screen Before Typing" width="300"/>
+  <p><strong>After typing:</strong></p>
+  <img src="mobile/assets/images/SearchScreen2.png" alt="Search Screen After Typing" width="300"/>
 
-<h3>Movie Details Screen</h3>
-<ul>
-  <li>Detailed movie information</li>
-  <li>High-quality poster image</li>
-  <li>Metadata including:
-    <ul>
-      <li>Release year</li>
-      <li>Runtime</li>
-      <li>Rating</li>
-      <li>Overview</li>
-      <li>Genres</li>
-      <li>Budget and revenue</li>
-      <li>Production companies</li>
-    </ul>
-  </li>
-</ul>
+  <h3>Movie Details Screen</h3>
+  <ul>
+    <li>Detailed movie information</li>
+    <li>High-quality poster image</li>
+    <li>Metadata including:
+      <ul>
+        <li>Release year</li>
+        <li>Runtime</li>
+        <li>Rating</li>
+        <li>Overview</li>
+        <li>Genres</li>
+        <li>Budget and revenue</li>
+        <li>Production companies</li>
+      </ul>
+    </li>
+  </ul>
+  <img src="mobile/assets/images/MovieDetailScreen.png" alt="Movie Details Screen" width="300"/>
 
-<h3>Saved & Profile Screens</h3>
-<p>Placeholder screens for future functionality</p>
+  <h3>Saved & Profile Screens</h3>
+  <p>Placeholder screens for future functionality</p>
+</section>
 
-  </section>
 
   <section>
     <h2>🪝 Custom Hooks</h2>
