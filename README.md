@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Movie Explorer App</title>
 </head>
 <body>
   <header>
@@ -24,15 +23,15 @@
 
   <section>
     <h2>🛠 Technologies Used</h2>
-    <p>React Native, Expo, TypeScript, Tailwind CSS, TMDB API, Expo Router</p>
+    <p>React Native, Expo, TypeScript, Tailwind CSS(via NativeWind), TMDB API, Expo Router</p>
   </section>
 
   <section>
     <h2>🚀 Installation</h2>
     <ol>
       <li>Clone the repository:
-        <pre><code>git clone https://github.com/yourusername/movie-explorer.git
-cd movie-explorer</code></pre>
+        <pre><code>git clone https://github.com/MohamedAmineNasri/Movie_App.git
+cd mobile</code></pre>
       </li>
       <li>Install dependencies:
         <pre><code>npm install
@@ -44,9 +43,9 @@ yarn install</code></pre>
         <pre><code>EXPO_PUBLIC_MOVIE_API_KEY=your_tmdb_api_key_here</code></pre>
       </li>
       <li>Run the app:
-        <pre><code>npm start
+        <pre><code>npx expo start
 # or
-yarn start</code></pre>
+yarn expo start</code></pre>
       </li>
     </ol>
   </section>
@@ -54,61 +53,62 @@ yarn start</code></pre>
   <section>
     <h2>📂 Project Structure</h2>
     <pre>
-/src
-  /components
-    MovieCard.tsx      # Movie grid item component
-    SearchBar.tsx      # Search input component
-  /constants
-    icons.ts           # App icon assets
-    images.ts          # App image assets
-  /services
-    api.ts             # TMDB API service
-    useFetch.ts        # Custom fetch hook
-/app
-  (tabs)               # Tab navigation
-    index.tsx          # Home screen
-    search.tsx         # Search screen
-    saved.tsx          # Saved movies screen
-    profile.tsx        # User profile screen
-  movie/[id].tsx       # Movie details screen
+/mobile
+    /components
+        MovieCard.tsx      # Movie grid item component
+        SearchBar.tsx      # Search input component
+    /constants
+        icons.ts           # App icon assets
+        images.ts          # App image assets
+    /services
+        api.ts             # TMDB API service
+        useFetch.ts        # Custom fetch hook
+    /app
+    (tabs)               # Tab navigation
+        index.tsx          # Home screen
+        search.tsx         # Search screen
+        saved.tsx          # Saved movies screen
+        profile.tsx        # User profile screen
+    movie/[id].tsx       # Movie details screen
     </pre>
   </section>
 
   <section>
-    <h2>📱 Screens</h2>
+  <h2>📱 Screens</h2>
 
-    <h3>Home Screen</h3>
+<h3>Home Screen</h3>
+<ul>
+  <li>Displays trending movies in a grid layout</li>
+  <li>Features a search bar to navigate to search screen</li>
+</ul>
+
+<h3>Search Screen</h3>
+<ul>
+  <li>Full-text search functionality</li>
+  <li>Debounced search requests</li>
+  <li>Results displayed in 3-column grid</li>
+</ul>
+
+<h3>Movie Details Screen</h3>
+<ul>
+  <li>Detailed movie information</li>
+  <li>High-quality poster image</li>
+  <li>Metadata including:
     <ul>
-      <li>Displays trending movies in a grid layout</li>
-      <li>Features a search bar to navigate to search screen</li>
+      <li>Release year</li>
+      <li>Runtime</li>
+      <li>Rating</li>
+      <li>Overview</li>
+      <li>Genres</li>
+      <li>Budget and revenue</li>
+      <li>Production companies</li>
     </ul>
+  </li>
+</ul>
 
-    <h3>Search Screen</h3>
-    <ul>
-      <li>Full-text search functionality</li>
-      <li>Debounced search requests</li>
-      <li>Results displayed in 3-column grid</li>
-    </ul>
+<h3>Saved & Profile Screens</h3>
+<p>Placeholder screens for future functionality</p>
 
-    <h3>Movie Details Screen</h3>
-    <ul>
-      <li>Detailed movie information</li>
-      <li>High-quality poster image</li>
-      <li>Metadata including:
-        <ul>
-          <li>Release year</li>
-          <li>Runtime</li>
-          <li>Rating</li>
-          <li>Overview</li>
-          <li>Genres</li>
-          <li>Budget and revenue</li>
-          <li>Production companies</li>
-        </ul>
-      </li>
-    </ul>
-
-    <h3>Saved & Profile Screens</h3>
-    <p>Placeholder screens for future functionality</p>
   </section>
 
   <section>
